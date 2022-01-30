@@ -2,7 +2,8 @@
 Pure python reverse shell for CVE-2021-44228 log4shell. Big thanks to [dotPY-hax/log4py](https://github.com/dotPY-hax/log4py) for the original pure python PoC and pre-compiled java bytecode.
 
 ## Features:
-* Pure python, no java required!
+* Pure python3, no java required!
+* Zero dependencies! Simply download and execute `python main.py`
 * Built in LDAP, HTTP and ReverseShell listeners
 * Easily custimizable command line arguments
 * Different built-in attack modules:
