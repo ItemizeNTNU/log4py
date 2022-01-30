@@ -6,7 +6,7 @@ Pure python reverse shell for CVE-2021-44228 log4shell. Big thanks to [dotPY-hax
 * Zero dependencies! Simply download and execute `python main.py`
 * Built in LDAP, HTTP and ReverseShell listeners
 * Easily custimizable command line arguments
-* Automatic class random class renaming to prevent cases where classes are cached by the java runtime
+* Automatic random class renaming to prevent cases where classes are cached by the java runtime
 * Different built-in attack modules:
 	* Manual - Simply gives you the JNDI payload link for you to manually post to the target [default]
 	* Header Attack - Specify URL, Method and Header to send the JNDI payload in
